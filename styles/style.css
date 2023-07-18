@@ -248,7 +248,7 @@
     background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
 }
 .careers-text{
-    margin-left: 50px;
+    margin-left: 70px;
 }
 .careers-title{
     color: #fff;
@@ -282,12 +282,12 @@
     border-radius: 48px;
     border: none;
 }
-.careers-img{
-    width: 660px;
-}
+/* .careers-img{
+    width: 400px; */
+/* } */
 .careers-img> img{
-    width: 800px;
-    height: 650px;
+    width: 750px;
+    height: 600px;
 }
 /* ended careers section */
 
@@ -299,6 +299,16 @@
     margin: 120px 50px;
     flex-wrap: wrap;
 }
+.game-category-img:hover{
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;  
+    border: #FF42A5 1px solid; 
+    border-radius: 48px;
+    padding: 2px;
+    cursor: pointer;
+}
 .game-category-img{
     display: flex;
     align-items: center;
@@ -308,4 +318,57 @@
     color: #0b0223;
     font-size: 1rem;
     font-weight: 600;
+}
+/* ended category section */
+/* footer section */
+footer{
+    color: #FFF;
+    background-color: #0b0223;
+    height: 450px;
+}
+#last-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0;
+}
+#last-logo> p{
+    color: #FFF;
+}
+.support> ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    font-size: .75rem;
+    font-weight: 600;
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin: 50px;
+}
+.terms> ul{
+    color: rgba(255, 255, 255, 0.60);
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    font-size: .75rem;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+footer> small{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.60);
+    font-size: .75rem;
+    font-weight: 500;
 }
