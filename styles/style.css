@@ -289,3 +289,23 @@
     width: 800px;
     height: 650px;
 }
+/* ended careers section */
+
+/* game category section */
+.games-category{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 120px 50px;
+    flex-wrap: wrap;
+}
+.game-category-img{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.category-title{
+    color: #0b0223;
+    font-size: 1rem;
+    font-weight: 600;
+}
