@@ -240,3 +240,52 @@
     font-weight: 400;
 }
 /* ended play section */
+
+.careers{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+}
+.careers-text{
+    margin-left: 50px;
+}
+.careers-title{
+    color: #fff;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+.careers-description{
+    color: #FFF;
+    font-size: .75rem;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.positions{
+    color: #FFF;
+    font-size: .75rem;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.positions-holder{
+    text-align: right;
+}
+.careers-text> button{
+    color: #FF42A5;
+    background-color: #FFF;
+    font-size: .85rem;
+    font-weight: 600;
+    padding: 15px 30px;
+    border-radius: 48px;
+    border: none;
+}
+.careers-img{
+    width: 660px;
+}
+.careers-img> img{
+    width: 800px;
+    height: 650px;
+}
