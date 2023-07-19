@@ -195,11 +195,6 @@
     font-size: .75rem;
     font-weight: 500;
 }
-.card> img:hover{
-    border-radius: 10px;
-    background-color: #000000;
-    background- ;
-}
 
 /* play section */
 .play-instantly{
@@ -569,6 +564,7 @@ footer> .small{
     }
     .game-category-img> .category-title{
         font-size: .40rem;
+        justify-content: space-around;
     }
     .careers-img> img{
         width: 300px;
