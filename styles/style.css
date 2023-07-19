@@ -580,6 +580,7 @@ footer> .small{
         flex-wrap: wrap;
         gap: 60px;
         align-items: center;
+        padding-right: 30px;
     }
     .icon{
         flex-wrap: wrap;
@@ -590,5 +591,5 @@ footer> .small{
         font-size: .45rem;
         text-align: center;
     }
-
+    
 }
