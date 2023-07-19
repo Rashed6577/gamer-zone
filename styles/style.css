@@ -350,7 +350,7 @@
 .game-category-img{
     display: flex;
     align-items: center;
-    gap: 15px;
+    gap: 5px;
 }
 .category-title{
     color: #0b0223;
@@ -362,7 +362,8 @@
 footer{
     color: #FFF;
     background-color: #0b0223;
-    height: 450px;
+    padding: 80px 0 100px ;
+
 }
 #last-logo{
     display: flex;
@@ -402,11 +403,192 @@ footer{
     font-weight: 600;
     margin-bottom: 40px;
 }
-footer> small{
+footer> .small{
     display: flex;
     justify-content: center;
     align-items: center;
     color: rgba(255, 255, 255, 0.60);
     font-size: .75rem;
     font-weight: 500;
+}
+
+
+
+
+@media screen and (max-width:576px) {
+    .nav-container{
+        flex-direction: column;
+        gap: 0;
+    }
+    .logo> img{
+        width: 68;
+        height: 30;
+    }
+    .logo> p{
+        font-size: 2rem;
+    }
+    .nav-title> a{
+        display:list-item;
+        list-style: none;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+    .banner{
+        flex-direction: column-reverse;
+    }
+    .banner-text{
+        text-align: center;
+    }
+    .banner-title{
+        font-size: 2rem;
+        text-align: center;
+        margin-top: 10px;
+    }
+    .banner-name{
+        font-size: 4rem;
+        text-align: center;
+    }
+    .banner-description{
+        text-align: left;
+        font-size: 1rem;
+    }
+    .banner-img> img{
+        width: 250px;
+        height: 350px;
+    }
+    .gamer{
+        flex-direction: column;
+        height: 600px;
+    }
+    .gamer-img> img{
+        width: 310px;
+        margin-bottom: 0;
+    }
+    .gamer-title, .gamer-text{
+        text-align: center;
+        margin: 0;
+    }
+    .gamer-title{
+        font-size: 1.5rem;
+    }
+    .gamer-text{
+        font-size: .35rem;
+    }
+    .gamer-description{
+        font-size: .5rem;
+        margin-left: 0;
+        text-align: center;
+    }
+    .our-purpose{
+        font-size: 1rem;
+    }
+    .online-games-title{
+        font-size: 1rem;
+    }
+    .online-games-description{
+        font-size: .5rem;
+    }
+    .cards{
+        flex-direction: column;
+    }
+    .play-instantly{
+        flex-direction: column;
+    }
+    .play-instantly-text-title{
+        text-align: center;
+        font-size: 1.5rem;
+    }
+    .play-instantly-text-description{
+        text-align: center;
+        font-size: .5rem;
+        margin-bottom: -110px;
+    }
+    .play-instantly-img> .img-1{
+        width: 200px;
+        height: 300px;
+        border-radius: 10px;
+        margin-top: 0;
+    }
+    .img-2{
+        width: 120px;
+        height: 180px;
+        bottom: -50px;
+        left: -50px;
+    }
+    .play-online{
+        flex-direction: column-reverse;
+    }
+    .play-online-img> .img-3{
+        width: 200px;
+        height: 300px;
+        border-radius: 10px;
+    }
+    .img-4{
+        width: 120px;
+        height: 180px;
+        bottom: -60px;
+        right: -50px;
+    }
+    .play-online-text-title{
+        text-align: center;
+        font-size: 1.5rem;
+    }
+    .play-online-text-description{
+        text-align: center;
+        font-size: .5rem;
+    }
+    .careers{
+        flex-direction: column;
+    }
+    .careers-text{
+        margin-left: 0;
+        text-align: center;
+    }
+    .careers-title{
+        font-size: 2rem;
+    }
+    .careers-description{
+        font-size: .5rem;
+    }
+    .positions{
+        font-size: .5rem;
+        text-align: left;
+    }
+    .games-category{
+        margin: 50px 0px;
+        gap: 50px;   
+    }
+    .game-category-img> img{
+        width: 20px;
+        height: 20px;
+    }
+    .game-category-img> .category-title{
+        font-size: .40rem;
+    }
+    .careers-img> img{
+        width: 300px;
+        height: 260px;
+    }
+    .last-logo> img{
+        width: 30px;
+        height: inherit;
+    }
+    .last-logo> p{
+        font-size: 2rem;
+    }
+    .support> ul, .terms> ul{
+        flex-wrap: wrap;
+        gap: 60px;
+        align-items: center;
+    }
+    .icon{
+        flex-wrap: wrap;
+        gap: 70px;
+    }
+    footer> .small{
+        flex-direction: column;
+        font-size: .45rem;
+        text-align: center;
+    }
+
 }
