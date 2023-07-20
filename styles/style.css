@@ -390,6 +390,7 @@
     display: flex;
     align-items: center;
     gap: 5px;
+    padding: 5px;
 }
 .category-title{
     color: #0b0223;
