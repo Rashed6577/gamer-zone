@@ -60,7 +60,13 @@
     justify-content: space-around;
 }
 .banner-text{
-    margin: 110px 0;
+    width: 50%;
+    height: 700px;
+    padding-left: 60px;
+    padding-top: 80px;
+    background-image: url('../images/Group\ 14.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
 .banner-title{
     color: #0b0223;
@@ -102,7 +108,7 @@
     background-color: #4ec5f7;
     padding: 15px 30px;
     margin-top: 25px;
-    margin-left: 25px;
+    margin-left: 10px;
 }
 .banner-img{
     margin-bottom: -4px;
@@ -436,16 +442,21 @@ footer> .small{
         flex-direction: column-reverse;
     }
     .banner-text{
+        width: 100%;
+        height: 500px;
         text-align: center;
     }
     .banner-title{
         font-size: 2rem;
-        text-align: center;
+        text-align: left;
         margin-top: 10px;
     }
     .banner-name{
         font-size: 4rem;
-        text-align: center;
+        text-align: left;
+    }
+    .banner-text> .btn-primary{
+        margin-left: -50px;
     }
     .banner-description{
         text-align: left;
@@ -616,6 +627,7 @@ footer> .small{
         flex-direction: column-reverse;
     }
     .banner-text{
+        width: 100%;
         text-align: center;
     }
     .banner-title{
@@ -630,6 +642,7 @@ footer> .small{
     .banner-description{
         text-align: left;
         font-size: 1rem;
+        margin-left: 210px;
     }
     .banner-img> img{
         width: 550px;
